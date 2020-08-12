@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Tab</title>
+</head>
+<body>
+  <section class="section">
+    <div class="title">
+      <h2>About</h2>
+      <p>Description for about.</p>
+    </div>
+    <div>
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/03/00/web-road-lines-empty-istock.jpg?w968h681" alt="about picture" />
+        </article>
+        <article class="about">
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">History</button>
+            <button class="tab-btn" data-id="vision">Vision</button>
+            <button class="tab-btn" data-id="goals">Goals</button>
+          </div>
+          <div class="about-content">
+            <div class="content active" id="history">
+              <h4>History</h4>
+              <p>Description One</p>
+            </div>
+            <div class="content" id="vision">
+              <h4>Vision</h4>
+              <p>Description Two</p>
+            </div>
+            <div class="content" id="goals">
+              <h4>Goals</h4>
+              <p>Description Three</p>
+            </div>
+          </div>
+        </article>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
